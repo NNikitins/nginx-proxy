@@ -12,7 +12,7 @@ services:
         restart: "always"
         networks:
             proxy: null
-            identityserverui:
+            je-jwilder-nginx:
                 aliases:
                 - sts.je-idp.jeanedwards.com
                 - admin.je-idp.jeanedwards.com
